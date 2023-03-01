@@ -1,1 +1,3 @@
+com\algaworks\ecommerce\modelo\Produto.class
 com\algaworks\Main.class
+com\algaworks\ecommerce\util\IniciarUnidadeDePersistencia.class
