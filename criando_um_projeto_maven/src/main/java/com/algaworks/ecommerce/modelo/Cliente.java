@@ -6,18 +6,16 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.math.BigDecimal;
+
 @Getter
 @Setter
 @EqualsAndHashCode( onlyExplicitlyIncluded = true)
 @Entity
-public class Produto {
+public class Cliente {
     @EqualsAndHashCode.Include
     @Id
     private Integer id;
     private String nome;
-    private String descricao;
-    private BigDecimal preco;
 
     public Integer getId() {
         return id;
@@ -35,30 +33,14 @@ public class Produto {
         this.nome = nome;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public BigDecimal getPreco() {
-        return preco;
-    }
-
-    public void setPreco(BigDecimal preco) {
-        this.preco = preco;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Produto produto = (Produto) o;
+        Cliente cliente = (Cliente) o;
 
-        return id.equals(produto.id);
+        return id.equals(cliente.id);
     }
 
     @Override
