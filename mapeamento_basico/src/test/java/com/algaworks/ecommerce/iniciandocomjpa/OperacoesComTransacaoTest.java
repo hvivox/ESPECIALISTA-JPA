@@ -28,7 +28,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void mostrarDifencaPersistMerge() {
         Produto produtoPersist = new Produto();
 
-        produtoPersist.setId(5);
+//        produtoPersist.setId(5);
         produtoPersist.setNome("Smartphone One Plus");
         produtoPersist.setDescricao("O processador mais rápido.");
         produtoPersist.setPreco(new BigDecimal(2000));
@@ -47,7 +47,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
 
         Produto produtoMerge = new Produto();
 
-        produtoMerge.setId(6);
+//        produtoMerge.setId(6);
         produtoMerge.setNome("Notebook Dell");
         produtoMerge.setDescricao("O melhor da categoria.");
         produtoMerge.setPreco(new BigDecimal(2000));
@@ -67,18 +67,18 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void inserirObjetoComMerge() {
         Produto produto = new Produto();
 
-        produto.setId(4);
+//        produto.setId(4);
         produto.setNome("Microfone Rode Videmic");
         produto.setDescricao("A melhor qualidade de som.");
         produto.setPreco(new BigDecimal(1000));
 
         entityManager.getTransaction().begin();
-        entityManager.merge(produto);
+        Produto produtoSalvo = entityManager.merge(produto);
         entityManager.getTransaction().commit();
 
         entityManager.clear();
 
-        Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
+        Produto produtoVerificacao = entityManager.find(Produto.class, produtoSalvo.getId());
         Assert.assertNotNull(produtoVerificacao);
     }
 
@@ -134,7 +134,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void inserirOPrimeiroObjeto() {
         Produto produto = new Produto();
 
-        produto.setId(2);
+//        produto.setId(2);
         produto.setNome("Câmera Canon");
         produto.setDescricao("A melhor definição para suas fotos.");
         produto.setPreco(new BigDecimal(5000));
