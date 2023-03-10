@@ -25,6 +25,12 @@ public class OperacoesComTransacaoInserirPrimeiroObjeto extends EntityManagerTes
     }
 
     @Test
+    public void insert(){
+        Produto  produto = entityManager.find(Produto.class,2);
+        System.out.println( produto.getNome() );
+    }
+
+    @Test
     public void inserirObjetoComMerge() {
 
         Produto produto = new Produto();
@@ -103,10 +109,10 @@ public class OperacoesComTransacaoInserirPrimeiroObjeto extends EntityManagerTes
         entityManager.getTransaction().commit();
 
        // entityManager.persist(produto);
-       // entityManager.flush();// tudo que estiver na memória é formado a ir para banco de dados
+       // entityManager.flush();// tudo que estiver na memoria é formado a ir para banco de dados
 
         //O persist joga o objeto para memoria, o clear limpa a memoria
-        // Quando a memoria é limpa, o select é impresso na tela no console
+        // Quando a memória é limpa, o select é impresso na tela no console
         // se tirar o clear não irá mostrar o select porque a consulta do banco não é feita no banco
         entityManager.clear();
 
