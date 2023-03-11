@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 
 public class RelacionamentoManyToOneTest extends EntityManagerTest {
 
+
+
     @Test
     public void verificarRelacionamentoItemPedido() {
         Cliente cliente = entityManager.find(Cliente.class, 1);
