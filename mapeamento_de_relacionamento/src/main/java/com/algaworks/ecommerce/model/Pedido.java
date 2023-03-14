@@ -36,4 +36,7 @@ public class Pedido {
 
     @Embedded
     private EnderecoEntregaPedido enderecoEntrega;
+
+    @ManyToOne
+    private Cliente cliente;
 }
