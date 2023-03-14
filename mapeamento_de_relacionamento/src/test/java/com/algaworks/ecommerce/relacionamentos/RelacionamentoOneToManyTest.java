@@ -8,7 +8,7 @@ import org.junit.Test;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public class RelacionamentoOneToMany extends EntityManagerTest {
+public class RelacionamentoOneToManyTest extends EntityManagerTest {
 
     @Test
     public void verificarRelacionamentoItemOneToManyPedido() {
