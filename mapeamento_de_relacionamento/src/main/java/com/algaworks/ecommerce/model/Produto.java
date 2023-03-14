@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Getter
 @Setter
@@ -24,4 +25,15 @@ public class Produto {
     private String descricao;
 
     private BigDecimal preco;
-}
+    // nome da tabela a ser criada: @JoinTable( name="produto_categoria",
+    // Pk de produto: joinColumns = @JoinColumn(name = "produto_id")
+        // produto_id é uma descrição padrão para atriburo não mapeado com @Column
+    // PK da tabela Categoria:   inverseJoinColumns = @JoinColumn(name = "categoria_id")
+    @ManyToMany
+    @JoinTable( name="produto_categoria",
+    joinColumns = @JoinColumn(name = "produto_id"),
+            inverseJoinColumns = @JoinColumn(name = "categoria_id")
+    )
+    private List<Categoria> categoriaList;
+
+ }

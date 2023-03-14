@@ -28,4 +28,9 @@ public class Categoria {
 
     @OneToMany(mappedBy = "categoriaPai")
     private List<Categoria> categoriaList;
+
+
+    // categoriaList é o atributo que está na classe produto
+    @ManyToMany(mappedBy = "categoriaList")
+    private List<Produto> produtos;
 }
