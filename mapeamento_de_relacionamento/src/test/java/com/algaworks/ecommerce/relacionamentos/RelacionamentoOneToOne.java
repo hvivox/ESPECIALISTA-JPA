@@ -25,7 +25,7 @@ public class RelacionamentoOneToOne extends EntityManagerTest {
         entityManager.clear();
         PagamentoCartao verificaPagamentocartao =  entityManager.find(PagamentoCartao.class, 1 );
         Assert.assertNotNull( verificaPagamentocartao.getPedido() );
-        
+
     }
 
 
