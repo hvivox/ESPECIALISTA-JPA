@@ -21,8 +21,6 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-
-
     @Column(name = "data_pedido")
     private LocalDateTime dataPedido;
 
