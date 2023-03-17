@@ -41,7 +41,7 @@ public class Pedido {
     private EnderecoEntregaPedido enderecoEntrega;
 
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 
