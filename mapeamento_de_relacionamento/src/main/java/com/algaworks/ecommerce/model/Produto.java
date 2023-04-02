@@ -36,4 +36,8 @@ public class Produto {
     )
     private List<Categoria> categoriaList;
 
+
+    @OneToOne(mappedBy = "produto")
+    private Estoque estoque;
+
  }
