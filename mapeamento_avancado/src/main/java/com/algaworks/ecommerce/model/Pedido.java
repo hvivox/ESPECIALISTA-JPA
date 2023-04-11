@@ -31,14 +31,13 @@ public class Pedido {
     @OneToMany(mappedBy = "pedido")
     private List<ItemPedido> itens;
 
-    @Column(name = "data_criacao", insertable = false)
+    @Column(name = "data_criacao", updatable = false)
     private LocalDateTime dataCriacao;
 
-
-    @Column(name = "data_ultima_atualizacao", updatable = false)
+    @Column(name = "data_ultima_atualizacao", insertable = false)
     private LocalDateTime dataUltimaAtualizacao;
 
-    @Column(name = "data_conclusao", )
+    @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
     @OneToOne(mappedBy = "pedido")
