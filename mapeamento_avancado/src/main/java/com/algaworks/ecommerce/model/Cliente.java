@@ -18,6 +18,8 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    @Transient
+    private String primeiroNome;
 
     private String nome;
 
@@ -26,4 +28,16 @@ public class Cliente {
 
     @OneToMany(mappedBy = "cliente")
     private List<Pedido> pedidos;
+
+
+    @PostLoad
+    public void configurarPrimeiroNome(){
+        if(nome != null && !nome.isBlank() ){
+            int index = nome.indexOf(" ");
+            if(index > -1){
+                primeiroNome = nome.substring(0, index);
+            }
+        }
+    }
+
 }
