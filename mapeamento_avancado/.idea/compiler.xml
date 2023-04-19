@@ -10,5 +10,8 @@
         <module name="algaworks-ecommerce" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algaworks-ecommerce" target="12" />
+    </bytecodeTargetLevel>
   </component>
 </project>

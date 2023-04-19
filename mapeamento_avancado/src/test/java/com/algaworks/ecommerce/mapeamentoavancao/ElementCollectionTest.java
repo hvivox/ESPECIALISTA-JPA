@@ -7,7 +7,6 @@ import com.algaworks.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -28,13 +27,12 @@ public class ElementCollectionTest extends EntityManagerTest {
         Assert.assertFalse(produtoVerificacao.getTags().isEmpty());
     }
 
-
     @Test
     public void aplicarAtributos() {
         entityManager.getTransaction().begin();
 
         Produto produto = entityManager.find(Produto.class, 1);
-        produto.setAtributos(Arrays.asList(new Atributo("tela", "320x600"),new Atributo("cor", "Preto")));
+        produto.setAtributos(Arrays.asList(new Atributo("tela", "320x600")));
 
         entityManager.getTransaction().commit();
 
@@ -43,7 +41,6 @@ public class ElementCollectionTest extends EntityManagerTest {
         Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
         Assert.assertFalse(produtoVerificacao.getAtributos().isEmpty());
     }
-
 
     @Test
     public void aplicarContato() {
@@ -60,7 +57,6 @@ public class ElementCollectionTest extends EntityManagerTest {
         Assert.assertEquals(
                 "fernando@email.com", clienteVerificacao.getContatos().get("email"));
     }
-
 
 
 }

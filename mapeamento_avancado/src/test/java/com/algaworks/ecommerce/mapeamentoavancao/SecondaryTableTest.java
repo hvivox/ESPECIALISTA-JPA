@@ -27,4 +27,3 @@ public class SecondaryTableTest extends EntityManagerTest {
         Assert.assertNotNull(clienteVerificacao.getSexo());
     }
 }
-
