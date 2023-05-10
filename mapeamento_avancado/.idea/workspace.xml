@@ -5,28 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cdbae1-094b-4e0a-85e1-b4ae7c62f3ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/SexoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/StatusPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce/model/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/EntityManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/CachePrimeiroNivelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/CallbacksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/ContextoDePersistenciaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/Diagrama de estados.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/EstadosECicloDeVidaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/FlushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/GerenciamentoTransacoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/ListenersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultandoRegistrosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ChaveCompostaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/DetalhesColumnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/MapsIdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/PropriedadesTransientesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/EagerELazyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/src/test/java/com/algaworks/ecommerce/relacionamentos/RemovendoEntidadesReferenciadasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../conhecendo_entityManager/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/ecommerce/model/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/ecommerce/model/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algaworks/ecommerce/model/PagamentoCartao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algaworks/ecommerce/model/PagamentoCartao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapeamento_basico/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mapeamento_basico/.idea/compiler.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +115,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/mapeamento_avancado/src/main/java/com/algaworks/ecommerce/model",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/mapeamento_avancado/src/main/java/com/algaworks/ecommerce/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_avancado\src\main\java\com\algaworks\ecommerce\model" />
@@ -227,7 +274,8 @@
       <workItem from="1683295287089" duration="2312000" />
       <workItem from="1683347761062" duration="401000" />
       <workItem from="1683396439349" duration="1994000" />
-      <workItem from="1683549078048" duration="2396000" />
+      <workItem from="1683549078048" duration="3020000" />
+      <workItem from="1683723280264" duration="2131000" />
     </task>
     <servers />
   </component>
