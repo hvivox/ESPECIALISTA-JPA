@@ -19,11 +19,9 @@ Qsrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.ja
 Osrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java,d\5\d56502d81604ce348a7f19e987e07bb87752c198
 ƒ
 Ssrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java,2\e\2e7d50f1db349e9655cf89d8da58a0a4e693ae52
-†
-Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java,5\1\51290d86cf421ff5f28b6617cfa6a58c33c024f2
-k
-;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
-m
-=src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java,d\4\d4762e10ee15d08037fb40ab3070f5692a0a45c5
 j
 :src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
+†
+Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java,5\1\51290d86cf421ff5f28b6617cfa6a58c33c024f2
+m
+=src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java,d\4\d4762e10ee15d08037fb40ab3070f5692a0a45c5

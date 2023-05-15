@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cdbae1-094b-4e0a-85e1-b4ae7c62f3ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/util/ExecutarDDL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/util/ExportarDDL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/SexoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/StatusPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mapeamento_entididade_geracao_ddl/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/mapeamento_entididade_geracao_ddl/src/main/java/com/algaworks/ecommerce",
+    "last_opened_file_path": "D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/operacoes_em_cascata/src/test/java/com/algaworks/ecommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +88,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\test\java\com\algaworks\ecommerce" />
+      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\main\java\com\algaworks\ecommerce\model" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\main\java\com\algaworks\ecommerce" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\main\resources\META-INF" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\main\java\com\algaworks\ecommerce\model" />
-      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\test\java\com\algaworks\ecommerce" />
-      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\test\java\com\algaworks\ecommerce\relacionamentos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_avancado\src\main\resources\META-INF\banco-de-dados" />
@@ -212,6 +227,8 @@
       <workItem from="1683721822440" duration="2680000" />
       <workItem from="1683808739260" duration="599000" />
       <workItem from="1683830691569" duration="4460000" />
+      <workItem from="1684152988777" duration="710000" />
+      <workItem from="1684176766168" duration="2531000" />
     </task>
     <servers />
   </component>
