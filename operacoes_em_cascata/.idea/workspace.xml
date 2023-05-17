@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cdbae1-094b-4e0a-85e1-b4ae7c62f3ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +213,7 @@
       <workItem from="1684273097772" duration="379000" />
       <workItem from="1684273714903" duration="3000" />
       <workItem from="1684324703656" duration="74000" />
-      <workItem from="1684325506697" duration="2253000" />
+      <workItem from="1684325506697" duration="4172000" />
     </task>
     <servers />
   </component>
