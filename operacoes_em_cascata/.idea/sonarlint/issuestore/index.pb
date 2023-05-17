@@ -7,8 +7,6 @@ l
 <src/test/java/com/algaworks/ecommerce/EntityManagerTest.java,a\3\a38649c78c35c6c15529fe201e889ad3fdef19de
 f
 6src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java,c\1\c1fd05312f6c047819bde883aefed14d020ebf4f
-h
-8src/main/java/com/algaworks/ecommerce/model/Produto.java,f\9\f9f72a877f35dc0cc2c588e0d02efaf8703a19a6
 „
 Tsrc/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java,9\4\9431e5f9e6a7cc7fb22abc24d0931d7c049b8be6
 {
@@ -21,7 +19,3 @@ Osrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java
 Ssrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java,2\e\2e7d50f1db349e9655cf89d8da58a0a4e693ae52
 †
 Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java,5\1\51290d86cf421ff5f28b6617cfa6a58c33c024f2
-j
-:src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
-m
-=src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java,d\4\d4762e10ee15d08037fb40ab3070f5692a0a45c5
