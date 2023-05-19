@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cdbae1-094b-4e0a-85e1-b4ae7c62f3ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/dto/ProdutoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/BasicoJPQLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../operacoes_em_cascata/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,7 @@
   </component>
   <component name="ProjectId" id="2OHZnw3V59q7cPcGVlpMhpzm2Ep" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -53,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/operacoes_em_cascata/src/main/java/com/algaworks/ecommerce/model",
+    "last_opened_file_path": "D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/jpql_basico_avancado/src/test/java/com/algaworks/ecommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,17 +74,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\jpql_basico_avancado\src\test\java\com\algaworks\ecommerce" />
+      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\jpql_basico_avancado\src\main\java\com\algaworks\ecommerce" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\main\java\com\algaworks\ecommerce\model" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\test\java\com\algaworks\ecommerce\operacoesemcascata" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\test\java\com\algaworks\ecommerce" />
-      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\main\java\com\algaworks\ecommerce" />
-      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_entididade_geracao_ddl\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_avancado\src\main\resources\META-INF\banco-de-dados" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in algaworks-ecommerce">
+  <component name="RunManager" selected="JUnit.BasicoJPQLTest.projetarNoDTO">
     <configuration name="All in algaworks-ecommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,17 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacoesComTransacaoTest.inserirOPrimeiroObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicoJPQLTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.iniciandocomjpa.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
-      <option name="METHOD_NAME" value="inserirOPrimeiroObjeto" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.BasicoJPQLTest" />
+      <option name="METHOD_NAME" value="projetarNoDTO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
         <item itemvalue="JUnit.All in algaworks-ecommerce" />
         <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarFotoProduto" />
         <item itemvalue="JUnit.PrimeiroCrudTest.atualizarRegistro" />
-        <item itemvalue="JUnit.OperacoesComTransacaoTest.inserirOPrimeiroObjeto" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +219,7 @@
       <workItem from="1684273714903" duration="3000" />
       <workItem from="1684324703656" duration="74000" />
       <workItem from="1684325506697" duration="4856000" />
+      <workItem from="1684497767053" duration="2000000" />
     </task>
     <servers />
   </component>

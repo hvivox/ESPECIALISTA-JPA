@@ -21,7 +21,3 @@ Ssrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.
 Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java,5\1\51290d86cf421ff5f28b6617cfa6a58c33c024f2
 „
 Tsrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java,1\4\14d8abdea85477623a3b31cfa61814f7ef2d3fbb
-‚
-Rsrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java,7\1\71947f62e1b63e2215bc94552357f7901c6cc7f7
-ƒ
-Ssrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java,7\6\7607396f7e86b11dd20d16d243f41fda8f9c17fc
