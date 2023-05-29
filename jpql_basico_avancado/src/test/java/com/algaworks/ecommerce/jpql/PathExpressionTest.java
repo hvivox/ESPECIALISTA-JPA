@@ -32,7 +32,7 @@ public class PathExpressionTest extends EntityManagerTest {
         
         TypedQuery<Pedido> typedQuery = entityManager.createQuery(jpql, Pedido.class);
         List<Pedido> lista = typedQuery.getResultList();
-        Assert.assertTrue( lista.size() == 1 );
+        Assert.assertTrue( lista.size() == 2 );
         
     }
     
