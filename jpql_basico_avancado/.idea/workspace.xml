@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cdbae1-094b-4e0a-85e1-b4ae7c62f3ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/algaworks/ecommerce/jpql/JoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/algaworks/ecommerce/jpql/JoinTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/jpql_basico_avancado/src/test/java/com/algaworks/ecommerce&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpaceGeral/AlgaWorks/ESPECIALISTA-JPA/jpql_basico_avancado/src/test/java/com/algaworks/ecommerce/jpql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,17 +76,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\jpql_basico_avancado\src\test\java\com\algaworks\ecommerce\jpql" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\jpql_basico_avancado\src\test\java\com\algaworks\ecommerce" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\jpql_basico_avancado\src\main\java\com\algaworks\ecommerce" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\main\java\com\algaworks\ecommerce\model" />
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\test\java\com\algaworks\ecommerce\operacoesemcascata" />
-      <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\operacoes_em_cascata\src\test\java\com\algaworks\ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceGeral\AlgaWorks\ESPECIALISTA-JPA\mapeamento_avancado\src\main\resources\META-INF\banco-de-dados" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicoJPQLTest.projetarNoDTO">
+  <component name="RunManager" selected="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico">
     <configuration name="All in algaworks-ecommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,49 +111,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeiroCrudTest.atualizarRegistro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinTest.fazerJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.iniciandocomjpa.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.iniciandocomjpa.PrimeiroCrudTest" />
-      <option name="METHOD_NAME" value="atualizarRegistro" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.JoinTest" />
+      <option name="METHOD_NAME" value="fazerJoin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToManyTest.verificarRelacionamentoPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinTest.fazerLeftJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.RelacionamentoOneToManyTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoPedido" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.JoinTest" />
+      <option name="METHOD_NAME" value="fazerLeftJoin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalvandoArquivosTest.salvarFotoProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathExpressionTest.buscarPedidosComProdutoEspecifico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SalvandoArquivosTest" />
-      <option name="METHOD_NAME" value="salvarFotoProduto" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PathExpressionTest" />
+      <option name="METHOD_NAME" value="buscarPedidosComProdutoEspecifico" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico" />
+        <item itemvalue="JUnit.JoinTest.fazerLeftJoin" />
+        <item itemvalue="JUnit.JoinTest.fazerJoin" />
         <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
         <item itemvalue="JUnit.All in algaworks-ecommerce" />
-        <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
-        <item itemvalue="JUnit.SalvandoArquivosTest.salvarFotoProduto" />
-        <item itemvalue="JUnit.PrimeiroCrudTest.atualizarRegistro" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +222,9 @@
       <workItem from="1684324703656" duration="74000" />
       <workItem from="1684325506697" duration="4856000" />
       <workItem from="1684497767053" duration="2587000" />
-      <workItem from="1684847844854" duration="610000" />
+      <workItem from="1684847844854" duration="1850000" />
+      <workItem from="1685018725914" duration="6295000" />
+      <workItem from="1685365975362" duration="854000" />
     </task>
     <servers />
   </component>

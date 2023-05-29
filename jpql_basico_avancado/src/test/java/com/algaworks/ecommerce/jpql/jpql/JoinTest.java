@@ -1,4 +1,4 @@
-package com.algaworks.ecommerce.jpql;
+package com.algaworks.ecommerce.jpql.jpql;
 
 import com.algaworks.ecommerce.EntityManagerTest;
 import com.algaworks.ecommerce.model.Pedido;

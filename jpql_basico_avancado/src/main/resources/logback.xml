@@ -5,7 +5,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.hibernate.type.descriptor.sql" level="trace"/>
+   <!-- <logger name="org.hibernate.type.descriptor.sql" level="trace"/>  -->
 
     <root level="info">
         <appender-ref ref="LOGGER" />

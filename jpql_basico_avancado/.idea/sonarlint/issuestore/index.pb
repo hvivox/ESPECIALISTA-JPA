@@ -21,3 +21,15 @@ Ssrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.
 Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java,5\1\51290d86cf421ff5f28b6617cfa6a58c33c024f2
 „
 Tsrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java,1\4\14d8abdea85477623a3b31cfa61814f7ef2d3fbb
+‚
+Rsrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java,7\1\71947f62e1b63e2215bc94552357f7901c6cc7f7
+ƒ
+Ssrc/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java,7\6\7607396f7e86b11dd20d16d243f41fda8f9c17fc
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+t
+Dsrc/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java,c\7\c7da5d7d344b6b4a5e903f6969ab94f45a5be9b2
+h
+8src/main/java/com/algaworks/ecommerce/model/Produto.java,f\9\f9f72a877f35dc0cc2c588e0d02efaf8703a19a6
+k
+;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
