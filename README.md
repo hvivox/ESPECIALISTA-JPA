@@ -1,7 +1,7 @@
 
 # ESPECIALISTA-JPA
 
-Este repositório trata de um **SISTEMA ECOMMERCE**", que é um conjunto de exemplos e 
+Este repositório trata de um **SISTEMA ECOMMERCE**, aqui você encontrará conjunto de exemplos e 
 exercícios relacionados ao uso da tecnologia JPA (Java Persistence API). 
 O objetivo principal é fornecer conhecimentos aprofundados sobre o uso do JPA para 
 manipulação de dados em aplicações Java.
