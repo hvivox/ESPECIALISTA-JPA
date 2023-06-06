@@ -18,7 +18,7 @@ sistema de ECOMMERCE real.
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/DIAGRAMA_ECOMMERCE.png?text=ecommerce#vitrinedev)
+![APRESENTACAO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/DIAGRAMA_ECOMMERCE.png?text=ecommerce#vitrinedev)
 
 ## Assuntos abordados
 O repositório aborda os seguintes assuntos relacionados ao JPA:
@@ -33,6 +33,7 @@ O repositório aborda os seguintes assuntos relacionados ao JPA:
 - Trabalho com eventos do ciclo de vida de entidades, como persist, merge e remove.
 - Uso de Criteria API para construção de consultas programaticamente.
 - Configuração de propriedades avançadas do provedor JPA.
+![TESTE UNITARIO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/TestesUnitarios.gif?raw=true)
 
 ## Pré-requisitos
 Para executar os exemplos e exercícios deste repositório, é necessário ter o seguinte ambiente configurado:
@@ -52,7 +53,7 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
 ## Executando os exemplos
 Após configurar o ambiente, você pode executar as classes de testes, seja método a método, classe ou todo o projeto.
 
-![TESTE UNITARIO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/TestesUnitarios.gif?raw=true)
+
 
 
 
