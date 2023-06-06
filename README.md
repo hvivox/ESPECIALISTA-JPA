@@ -18,7 +18,7 @@ sistema de ECOMMERCE real.
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://jobsx.com.br/wp-content/uploads/2021/01/Capas-Blog-Janeiro-Jobs-X_Prancheta-1-1200x500.png?text=srealizacao#vitrinedev)
+![](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/DIAGRAMA_ECOMMERCE.png?text=ecommerce#vitrinedev)
 
 ## Assuntos abordados
 O repositório aborda os seguintes assuntos relacionados ao JPA:
@@ -52,7 +52,7 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
 ## Executando os exemplos
 Após configurar o ambiente, você pode executar as classes de testes, seja método a método, classe ou todo o projeto.
 
-
+![TESTE UNITARIO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/TestesUnitarios.gif?raw=true)
 
 
 
