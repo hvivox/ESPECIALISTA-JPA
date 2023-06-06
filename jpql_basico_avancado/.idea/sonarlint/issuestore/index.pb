@@ -33,3 +33,5 @@ h
 8src/main/java/com/algaworks/ecommerce/model/Produto.java,f\9\f9f72a877f35dc0cc2c588e0d02efaf8703a19a6
 k
 ;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
+g
+7src/main/java/com/algaworks/ecommerce/model/Pedido.java,d\9\d9d078bf4c0f3b4084e132b8e7009dc7f6b72b55

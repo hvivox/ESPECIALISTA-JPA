@@ -33,3 +33,5 @@ t
 Dsrc/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java,c\7\c7da5d7d344b6b4a5e903f6969ab94f45a5be9b2
 k
 ;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
+g
+7src/main/java/com/algaworks/ecommerce/model/Pedido.java,d\9\d9d078bf4c0f3b4084e132b8e7009dc7f6b72b55
