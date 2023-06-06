@@ -35,3 +35,13 @@ k
 ;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
 g
 7src/main/java/com/algaworks/ecommerce/model/Pedido.java,d\9\d9d078bf4c0f3b4084e132b8e7009dc7f6b72b55
+k
+;src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java,2\b\2be3dcd0eaff7f295917cac7d85fce85f3ccb95c
+h
+8src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java,c\f\cfe48d6be202ed5719400fe8dda5c062a8f11714
+r
+Bsrc/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java,5\0\506854f6fa9283694bbff65a03da0440832776f7
+z
+Jsrc/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java,d\8\d89e10c0ce5bf68bc8956b6cdee3c30b873939e6
+v
+Fsrc/test/java/com/algaworks/ecommerce/jpql/PassandoParametrosTest.java,1\5\1563eddb694af0d817d5dce720e8a4b37985b861
