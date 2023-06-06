@@ -1,7 +1,7 @@
 
 # ESPECIALISTA-JPA
 
-Este repositório trata de um **SISTEMA ECOMMERCE**", que é um conjunto de exemplos e 
+Este repositório trata de um **SISTEMA ECOMMERCE**, aqui você encontrará funcionalidades back-end, conjunto de exemplos e 
 exercícios relacionados ao uso da tecnologia JPA (Java Persistence API). 
 O objetivo principal é fornecer conhecimentos aprofundados sobre o uso do JPA para 
 manipulação de dados em aplicações Java.
@@ -18,7 +18,7 @@ sistema de ECOMMERCE real.
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://jobsx.com.br/wp-content/uploads/2021/01/Capas-Blog-Janeiro-Jobs-X_Prancheta-1-1200x500.png?text=srealizacao#vitrinedev)
+![APRESENTACAO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/DIAGRAMA_ECOMMERCE.png?text=ecommerce#vitrinedev)
 
 ## Assuntos abordados
 O repositório aborda os seguintes assuntos relacionados ao JPA:
@@ -33,6 +33,7 @@ O repositório aborda os seguintes assuntos relacionados ao JPA:
 - Trabalho com eventos do ciclo de vida de entidades, como persist, merge e remove.
 - Uso de Criteria API para construção de consultas programaticamente.
 - Configuração de propriedades avançadas do provedor JPA.
+![TESTE UNITARIO](https://github.com/hvivox/ESPECIALISTA-JPA/blob/main/TestesUnitarios.gif?raw=true)
 
 ## Pré-requisitos
 Para executar os exemplos e exercícios deste repositório, é necessário ter o seguinte ambiente configurado:
