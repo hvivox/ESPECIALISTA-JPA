@@ -39,3 +39,7 @@ r
 Bsrc/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java,5\0\506854f6fa9283694bbff65a03da0440832776f7
 v
 Fsrc/test/java/com/algaworks/ecommerce/jpql/PassandoParametrosTest.java,1\5\1563eddb694af0d817d5dce720e8a4b37985b861
+k
+;src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java,2\b\2be3dcd0eaff7f295917cac7d85fce85f3ccb95c
+k
+;src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java,8\1\8108d6a820ce9036f6c1d9fcbb6281fd8a116718
