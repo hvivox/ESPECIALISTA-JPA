@@ -43,3 +43,15 @@ k
 ;src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java,2\b\2be3dcd0eaff7f295917cac7d85fce85f3ccb95c
 k
 ;src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java,8\1\8108d6a820ce9036f6c1d9fcbb6281fd8a116718
+z
+Jsrc/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java,d\8\d89e10c0ce5bf68bc8956b6cdee3c30b873939e6
+n
+>src/test/java/com/algaworks/ecommerce/jpql/SubqueriesTest.java,0\0\00cc4b6724a9c36434688de66fc599eb3df1938a
+u
+Esrc/test/java/com/algaworks/ecommerce/jpql/OperadoresLogicosTest.java,5\e\5ebe905700f5cd3724e691a3ff4c78653f20a79b
+s
+Csrc/test/java/com/algaworks/ecommerce/jpql/OperacoesEmLoteTest.java,e\2\e2581f646694d9b29a35566f53075e4283f60ad2
+j
+:src/main/java/com/algaworks/ecommerce/model/Pagamento.java,f\1\f1ed35d049665bc4b8ef2aa53bf265de15b01129
+p
+@src/test/java/com/algaworks/ecommerce/jpql/DynamicQueryTest.java,8\1\81bdb3c1877fa589d1007ae548f82a55275b2e5a
